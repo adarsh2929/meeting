@@ -11,7 +11,7 @@ export const AuthLayout = () => {
 
     useEffect(() => {
         if (!authPath.includes(path)) {
-            navigate('/room');
+            navigate('/');
         }
 
     },[pathname]);
